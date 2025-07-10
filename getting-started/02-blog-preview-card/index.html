@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <style>
+      :root {
+        --yellow: hsl(47, 88%, 63%);
+        --white: hsl(0, 0%, 100%);
+        --gray-500: hsl(0, 0%, 42%);
+        --gray-950: hsl(0, 0%, 7%);
+        --body-text-size: 16px;
+      }
+      @font-face {
+        font-family: Figtree;
+        src: url("./assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+        font-weight: 400
+      }
+      @font-face {
+        font-family: Figtree;
+        src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+        font-weight: 800
+      }
+    </style>
+  </head>
+  <body
+    style="
+      margin: 0;
+      font-family: Figtree;
+      font-size: var(--body-text-size);
+      font-weight: 500;
+      background-color: var(--yellow);
+    "
+  >
+    <div
+      style="
+        height: 100vh;
+        width: 100%;
+        align-content: center;
+        box-sizing: border-box;
+      "
+    >
+      <div
+        style="
+          min-width: 320px;
+          width: clamp(320px, 380px, 100vw);
+          background-color: white;
+          border: 2px solid var(--gray-950);
+          border-radius: 18px;
+          box-shadow: 5px 5px 0px 2px var(--gray-950);
+          box-sizing: border-box;
+          padding: 20px;
+          margin: 0 auto;
+        "
+      >
+        <div style="width: 100%; padding: 0 0 20px;">
+          <img style="width: 100%; border-radius: 12px;" src="./assets/images/illustration-article.svg" alt="Article Vector Shapes Illustration" >
+        </div>
+        <div style="padding: 5px 10px; font-weight: 800; background-color: var(--yellow); border-radius: 4px; display: inline-block;">Learning</div>
+        <div style="padding: 15px 0">Published 21 Dec 2023</div>
+        <div style="font-weight: 800; padding-bottom: 15px; font-size: 24px">HTML & CSS foundations</div>
+        <div style="color: var(--gray-500); padding-bottom: 15px">These languages are the backbone of every website, defining structure, content, and presentation.</div>
+        <div style="padding: 10px 0 0">
+          <img style="display: inline-block; height: 30px; width: 30px; border-radius: 20px; vertical-align: middle;" src="./assets/images/image-avatar.webp" alt="Greg Hooper Profile Picture">
+          <div style="display: inline-block; font-weight: 800; vertical-align: middle;">Greg Hooper</div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      style="
+        padding: 5px;
+        background-color: #a0a0a0;
+        color: white;
+        text-align: right;
+      "
+    >
+      Challenge by <a style="color: white" href="https://www.frontendmentor.io?ref=challenge" target="_blank" >Frontend Mentor</a>.
+      Coded by <a style="color: white" href="https://github.com/nerb0">nerb0</a>.
+    </div>
+  </body>
+</html>
