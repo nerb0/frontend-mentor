@@ -9,6 +9,9 @@ This repository is organized to make it easy to find and understand the challeng
 ### Contents:
 
 **To be added**
+*   **Getting Started Challenges**
+    *   [Preview Page](https://nerb0.github.io/frontend-mentor/getting-started)
+    *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd)
 <!-- *   **Challenge 1: QR Code Component** -->
 <!--     *   Instructions: Create a card containing a qr code for frontendmentor. -->
 <!--     *   Solution:  Simple HTML and CSS. -->
