@@ -1,6 +1,6 @@
 # Fronted Mentor Challenges
 
-This repository contains a collection of completed challenges from [Frontend Mentor](https://frontendmentor.io).  It’s a valuable resource for learning and practicing frontendmentor techniques.
+This repository contains a collection of completed challenges from [Frontend Mentor](https://frontendmentor.io).  It’s a valuable resource for learning and practicing frontend development techniques.
 
 ## About this Repository:
 
