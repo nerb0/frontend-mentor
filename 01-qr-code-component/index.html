@@ -1,23 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | QR code component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
 
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/nerb0">nerb0</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | QR code component</title>
+    <style>
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --slate-300: hsl(212, 45%, 89%);
+      --slate-500: hsl(216, 15%, 48%);
+      --slate-900: hsl(218, 44%, 22%);
+      --card-height: 550px;
+      --card-width: 350px;
+      --card-padding: 25px;
+      --body-text-size: 15px;
+      --attribution-padding: 5px;
+    }
+    </style>
+  </head>
+  <body style="background-color: var(--slate-300); margin: 0; font-family: Outfit, sans-serif; font-size: var(--body-text-size);">
+    <div style="min-height: calc(var(--card-height) + 25px); height: calc(100vh - var(--body-text-size) - (var(--attribution-padding) * 2) - 4px); padding-top: calc((100vh - var(--card-height) - var(--card-padding)) / 2); box-sizing: border-box;">
+      <div style="background-color: var(--white); height: var(--card-height); width: var(--card-width); border-radius: 15px; margin: 0 auto; box-sizing: border-box; padding: 25px; box-shadow: 0 0 4px 4px color-mix(in srgb, var(--slate-500) 5%, transparent);">
+        <img src="./images/image-qr-code.png" alt="qr-code" style="width: 100%; border-radius: 8px;">
+        <div style="padding: 0 10px; text-align: center;">
+          <p style="font-weight: 700; color: var(slate-900); font-size: 22px;">Improve your front-end skills by building projects</p>
+          <p style="font-weight: 400;color: var(--slate-500)">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+      </div>
+    </div>
+    <div style="padding: var(--attribution-padding); background-color: var(--slate-900); color: var(--white); text-align: right;">
+      Challenge by <a style="color: var(--white)" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a style="color: var(--white)" href="https://github.com/nerb0">nerb0</a>.
+    </div>
+  </body>
 </html>
