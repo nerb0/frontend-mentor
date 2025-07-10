@@ -14,7 +14,7 @@ This repository is organized to make it easy to find and understand the challeng
 <!--     *   Solution:  Simple HTML and CSS. -->
 <!--     *   Resources: [Link to Frontendmentor Challenge 1](https://frontendmentor.io/challenges/1/image-gallery) -->
 
-**Notes:**
+### Notes:
 
 **To be added**
 <!-- *   [Link to Frontendmentor Challenge 1](https://frontendmentor.io/challenges/1/image-gallery) -  This is the first challenge in the repository. -->
