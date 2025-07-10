@@ -4,7 +4,7 @@ This repository contains a collection of completed challenges from [Frontend Men
 
 ## About this Repository:
 
-This repository is organized to make it easy to find and understand the challenges.  Each challenge is documented with clear instructions, solutions, and relevant resources.  It’s intended for developers to learn best practices and improve their skills.
+This repository is organized to make it easy to find and understand the challenges.  Each challenge is documented with clear instructions, solutions, and relevant resources.  It’s intended for me to learn and improve my skills in frontend development.
 
 ### Contents:
 
