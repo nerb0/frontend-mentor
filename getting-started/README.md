@@ -17,5 +17,5 @@ I decided to separate it since these challenges can be completed with simple HTM
     *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/02-blog-preview-card)
     *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/686f72a4449a25f45b687f81/challenge/start)
 *   **Challenge 3: Social Links Profile**
-    *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/03-social-link-profile)
+    *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/03-social-links-profile)
     *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/686f72a4449a25f45b687f82/challenge/start)
