@@ -22,3 +22,9 @@ I decided to separate it since these challenges can be completed with simple HTM
 *   **Challenge 4: Recipe Page**
     *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/04-recipe-page)
     *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/686f72a4449a25f45b687f83/challenge/start)
+*   **Challenge 5: Product Preview Card Component**
+    *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/05-product-preview-card-component)
+    *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD/steps/68710269449a25f45b7f0a85/challenge/start)
+*   **Challenge 6: Four Card Feature Section**
+    *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/06-four-card-feature-section)
+    *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD/steps/68710269449a25f45b7f0a87/challenge/start)
