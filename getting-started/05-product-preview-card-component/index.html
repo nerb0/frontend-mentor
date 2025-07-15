@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body>
+    <main class="card-container">
+      <section class="product-card">
+        <figure class="product-image-container">
+          <img class="desktop-image" src="./assets/images/image-product-desktop.jpg" alt="Perfume bottle surrounded with leaves.">
+          <img class="mobile-image" src="./assets/images/image-product-desktop.jpg" alt="Perfume bottle surrounded with leaves.">
+        </figure>
+        <section class="product-info-container">
+          <h2 class="product-category">Perfume</h2>
+          <h1 class="product-name">Gabrielle Essence Eau De Parfum</h1>
+
+          <p class="product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+
+          <section class="product-price-container">
+            <strong class="product-main-price">$149.99</strong>
+            <strike class="product-sub-price">$169.99</strike>
+          </section>
+
+          <button class="product-add-to-card-btn">
+            <img src="./assets/images/icon-cart.svg" alt="Cart icon.">
+            <span>Add to Cart</span>
+          </button>
+        </section>
+      </section>
+
+    </main>
+    <footer
+      style="
+      display: block;
+      padding: 5px;
+      background-color: var(--footer-bg);
+      color: var(--footer-fg);
+      text-align: center;
+      font-size: 0.9rem;
+      font-family: sans-serif;
+      "
+    >
+      Challenge by <a style="color: white" href="https://www.frontendmentor.io?ref=challenge" target="_blank" >Frontend Mentor</a >.
+      Coded by <a style="color: white" href="https://github.com/nerb0">nerb0</a>.
+    </footer>
+  </body>
+</html>
