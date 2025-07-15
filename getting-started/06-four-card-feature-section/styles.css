@@ -1,0 +1,122 @@
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --grey-500: hsl(234, 12%, 34%);
+  --grey-400: hsl(212, 6%, 44%);
+  --white: hsl(0, 0%, 100%);
+  --body-text-size: 15px;
+  --footer-bg: var(--grey-500);
+  --footer-fg: var(--white);
+  --footer-font: Poppins;
+}
+@font-face {
+  src: url("./fonts/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+  font-family: Poppins;
+  font-weight: 200;
+}
+@font-face {
+  src: url("./fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-family: Poppins;
+  font-weight: 400;
+}
+@font-face {
+  src: url("./fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-family: Poppins;
+  font-weight: 600;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--white);
+  font-family: Poppins;
+  font-size: var(--body-text-size);
+}
+main {
+  padding: 50px;
+  min-height: 100vh;
+}
+footer {
+  display: block;
+  padding: 5px;
+  background-color: var(--footer-bg);
+  color: var(--footer-fg);
+  font-family: var(--footer-font);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.product-header {
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.product-header > span {
+  font-weight: 200;
+  color: var(--grey-400);
+}
+.product-header > strong {
+  font-weight: 600;
+  color: var(--grey-500);
+}
+
+.product-description {
+  font-size: 0.9em;
+  text-align: center;
+  padding-bottom: 50px;
+  color: var(--grey-500);
+}
+.feature-card {
+  width: 350px;
+  background-color: var(--white);
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 5px color-mix(in srgb, var(--grey-400) 20%, transparent 100%);
+  border-top: 5px solid;
+  padding: 20px 30px 40px;
+}
+.feature-card > h2 {
+  padding-bottom: 10px;
+  color: var(--grey-500);
+}
+.feature-card > article {
+  color: var(--grey-400);
+}
+.feature-card > img {
+  display: block;
+  margin-left: auto;
+  padding-top: 30px;
+}
+
+.four-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.row-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+@media(width <= 375px) {
+  .four-card-container {
+    flex-direction: column;
+  }
+  .product-description > p {
+    display: inline;
+  }
+}
+@media(width > 375px) {
+  .four-card-container {
+    flex-direction: row;
+  }
+  .product-description > p {
+    display: block;
+  }
+}
