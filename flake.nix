@@ -11,7 +11,7 @@
       in with pkgs; {
           devShells.default = mkShell {
             buildInputs = [
-              live-server
+              nodePackages.live-server
             ];
           };
         });
