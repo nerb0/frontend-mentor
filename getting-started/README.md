@@ -28,3 +28,6 @@ I decided to separate it since these challenges can be completed with simple HTM
 *   **Challenge 6: Four Card Feature Section**
     *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/06-four-card-feature-section)
     *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD/steps/68710269449a25f45b7f0a87/challenge/start)
+*   **Challenge 7: Testimonials Grid Section**
+    *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/07-testimonials-grid-section)
+    *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD/steps/68710269449a25f45b7f0a88/challenge/start)
