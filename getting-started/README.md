@@ -31,3 +31,6 @@ I decided to separate it since these challenges can be completed with simple HTM
 *   **Challenge 7: Testimonials Grid Section**
     *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/07-testimonials-grid-section)
     *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/building-responsive-layouts--z1qCXVqkD/steps/68710269449a25f45b7f0a88/challenge/start)
+*   **Challenge 8: Article Preview Component**
+    *   [Github Page Preview](https://nerb0.github.io/frontend-mentor/getting-started/08-article-preview-component)
+    *   [Link to Frontendmentor Challenge](https://www.frontendmentor.io/learning-paths/javascript-fundamentals-oR7g6-mTZ-/steps/687650ca449a25f45bc4e876/challenge/start)
