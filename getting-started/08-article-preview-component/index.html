@@ -13,24 +13,37 @@
   <body>
     <main>
       <section class="card-container">
-        <img src="./images/drawers.jpg" alt="A green drawer with a brown vase on top.">
+        <img src="./images/drawers.jpg" alt="A green drawer with a brown vase on top."/>
         <section class="info-container">
-          <article class="info-header">
+          <article class="info-primary">
             Shift the overall look and feel by adding these wonderful 
             touches to furniture in your home
           </article>
 
-          <article class="info-quote">
+          <article class="info-secondary">
             Ever been in a room and felt like something was missing? Perhaps 
             it felt slightly bare and uninviting. I’ve got some simple tips 
             to help you make any room feel complete.
           </article>
 
-          <section>
-            Michelle Appleton
-            28 Jun 2020
+          <section class="share-container">
+            <img class="user-photo" src="./images/avatar-michelle.jpg" alt="Michelle's Profile Photo">
+            <section class="user-info">
+              <strong>Michelle Appleton</strong>
+              <span>28 Jun 2020</span>
+            </section>
 
-            Share
+            <input type="checkbox" id="share-btn" hidden/>
+            <label for="share-btn" class="share-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="currentColor" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+            </label>
+            <section class="share-links-container">
+              <span class="share-links-caret"></span>
+              <span>Share</span>
+              <img src="./images/icon-facebook.svg" alt="Facebook Icon">
+              <img src="./images/icon-twitter.svg" alt="Twitter Icon">
+              <img src="./images/icon-pinterest.svg" alt="Pinterest Icon">
+            </section>
           </section>
         </section>
       </section>
